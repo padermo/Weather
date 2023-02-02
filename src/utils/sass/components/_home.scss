@@ -1,0 +1,11 @@
+.home{
+  width: 100%;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+
+  &__cards{
+    width: 90%;
+    margin: 40px auto;
+    min-height: 100vh;
+    max-height: 100%;
+  }
+}

@@ -1,0 +1,35 @@
+.navbar{
+  width: 100%;
+  height: 140px;
+  display: flex;
+  padding: 20px 0;
+  background: color('white');
+
+  &__content{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__picture{
+    width: 100px;
+    height: 100px;
+  }
+
+  &__img{
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@keyframes show {
+  0%{
+    clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+  }
+  100%{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}

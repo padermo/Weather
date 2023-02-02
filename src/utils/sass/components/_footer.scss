@@ -1,0 +1,24 @@
+.footer{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  color: color('oscuro');
+
+  &__elements{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__picture{
+    width: 200px;
+  }
+
+  &__img{
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
